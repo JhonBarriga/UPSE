@@ -788,5 +788,51 @@
         "x": 1490,
         "y": 1000,
         "wires": []
+    },
+    {
+        "id": "e9fe81432d980d38",
+        "type": "inject",
+        "z": "ae21608330cd1aeb",
+        "name": "Hola UPSE",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 200,
+        "wires": [
+            [
+                "470d3ed5cc87e356"
+            ]
+        ]
+    },
+    {
+        "id": "470d3ed5cc87e356",
+        "type": "debug",
+        "z": "ae21608330cd1aeb",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 400,
+        "y": 200,
+        "wires": []
     }
 ]
