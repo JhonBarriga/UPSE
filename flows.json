@@ -167,7 +167,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 370,
+        "x": 1050,
         "y": 340,
         "wires": [
             [
@@ -184,8 +184,8 @@
         "high": "100",
         "inte": "true",
         "property": "payload",
-        "x": 540,
-        "y": 340,
+        "x": 1280,
+        "y": 360,
         "wires": [
             [
                 "c837e3bd35ecce15",
@@ -243,8 +243,8 @@
         "styleRounded": true,
         "styleGlow": false,
         "className": "",
-        "x": 730,
-        "y": 220,
+        "x": 1470,
+        "y": 240,
         "wires": [
             []
         ]
@@ -267,8 +267,8 @@
         "raw": false,
         "className": "",
         "name": "",
-        "x": 770,
-        "y": 340,
+        "x": 1510,
+        "y": 360,
         "wires": [
             []
         ]
@@ -329,8 +329,8 @@
         "height": 8,
         "className": "",
         "interpolation": "linear",
-        "x": 770,
-        "y": 400,
+        "x": 1510,
+        "y": 420,
         "wires": [
             []
         ]
@@ -355,8 +355,8 @@
         "className": "",
         "value": "payloads",
         "valueType": "msg",
-        "x": 750,
-        "y": 280,
+        "x": 1490,
+        "y": 300,
         "wires": []
     },
     {
@@ -390,8 +390,8 @@
         "enablePointerup": false,
         "pointerupPayload": "",
         "pointerupPayloadType": "str",
-        "x": 470,
-        "y": 520,
+        "x": 1210,
+        "y": 540,
         "wires": [
             [
                 "d95757dda3a6c979"
@@ -424,8 +424,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 470,
-        "y": 560,
+        "x": 1210,
+        "y": 580,
         "wires": [
             [
                 "d95757dda3a6c979"
@@ -459,8 +459,8 @@
         "colorTrack": "",
         "colorThumb": "",
         "showTextField": false,
-        "x": 470,
-        "y": 600,
+        "x": 1210,
+        "y": 620,
         "wires": [
             [
                 "00b60793058fb562"
@@ -492,8 +492,8 @@
         "iconPosition": "left",
         "iconInnerPosition": "inside",
         "spinner": "default",
-        "x": 480,
-        "y": 640,
+        "x": 1220,
+        "y": 660,
         "wires": [
             [
                 "d257510ba7663c45"
@@ -525,8 +525,8 @@
         "icon": "",
         "iconPosition": "left",
         "iconInnerPosition": "inside",
-        "x": 470,
-        "y": 680,
+        "x": 1210,
+        "y": 700,
         "wires": [
             [
                 "d257510ba7663c45"
@@ -551,8 +551,8 @@
         "raw": false,
         "className": "",
         "name": "",
-        "x": 730,
-        "y": 640,
+        "x": 1470,
+        "y": 660,
         "wires": [
             []
         ]
@@ -613,8 +613,8 @@
         "height": 8,
         "className": "",
         "interpolation": "linear",
-        "x": 690,
-        "y": 560,
+        "x": 1430,
+        "y": 580,
         "wires": [
             []
         ]
@@ -657,8 +657,8 @@
         "topic": "topic",
         "topicType": "msg",
         "className": "",
-        "x": 480,
-        "y": 780,
+        "x": 1220,
+        "y": 800,
         "wires": [
             [
                 "45307b455715e98a",
@@ -686,8 +686,8 @@
         "className": "",
         "value": "payloads",
         "valueType": "msg",
-        "x": 830,
-        "y": 740,
+        "x": 1570,
+        "y": 760,
         "wires": []
     },
     {
@@ -703,8 +703,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 800,
-        "y": 800,
+        "x": 1540,
+        "y": 820,
         "wires": []
     },
     {
@@ -724,8 +724,8 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 430,
-        "y": 940,
+        "x": 1170,
+        "y": 960,
         "wires": [
             [
                 "455abe77c492c732"
@@ -749,8 +749,8 @@
         "topic": "",
         "payload": "false",
         "payloadType": "bool",
-        "x": 430,
-        "y": 1000,
+        "x": 1170,
+        "y": 1020,
         "wires": [
             [
                 "455abe77c492c732"
@@ -785,8 +785,8 @@
         "shape": "circle",
         "showBorder": true,
         "showGlow": true,
-        "x": 750,
-        "y": 980,
+        "x": 1490,
+        "y": 1000,
         "wires": []
     }
 ]
