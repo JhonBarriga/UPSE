@@ -1,0 +1,12 @@
+{
+    "name": "UPSE2025",
+    "description": "Para dictar la IOT en la Maestria en la UPSE",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows.json",
+            "credentialsFile": "flows_cred.json"
+        }
+    }
+}
